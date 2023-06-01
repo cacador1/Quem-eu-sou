@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+body{
+    background-color: #c0c0c0;
+}
+h1{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(4, 0, 26);
+    border-right: 2px solid white;
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+h2{
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 300;
+    color: rgb(4, 0, 24);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.178);
+    width: 500px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.animação-escrever{
+    animation: cursor 500ms steps(45) infinite 
+    normal, escrever 4s steps(40)
+    1s normal both;
+}
+@keyframes escrever{
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 14.8em;
+    }
+}
+
+@keyframes cursor{
+    from{
+        border-right-color: white;
+    }
+    to{
+        border-right-color: transparent;
+    }
+}

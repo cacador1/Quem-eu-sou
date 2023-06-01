@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 body{
     background-color: #c0c0c0;
 }
-h1{
+h1#titulo-principal{
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
     color: rgb(4, 0, 26);
     border-right: 2px solid white;
     margin: 0 auto;
     width: 400px;
-    margin-top: 170px;
+    margin-top: 120px;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -25,7 +31,7 @@ h2{
 }
 
 .animação-escrever{
-    animation: cursor 500ms steps(45) infinite 
+    animation: cursor 600ms steps(45) infinite 
     normal, escrever 4s steps(40)
     1s normal both;
 }
@@ -46,4 +52,48 @@ h2{
     to{
         border-right-color: transparent;
     }
+}
+hr{
+    margin-top: 70px;
+}
+h1#titulo-contatos{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+section{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+div{
+    margin-top: 20px;
+    text-align: center;
+}
+a{
+    cursor: pointer;
+    user-select: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #afafaf;
+    display: inline-block;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(4, 0, 24);
+    font-weight: bold;
+}
+a:hover{
+    transform: translateY(-5px);
+    width: 120px;
+}
+footer{
+    font-weight: bold;
+    color: rgb(4, 0, 24);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    background-color: #afafaf;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
 }

@@ -6,12 +6,13 @@
     padding: 0px;
 }
 body{
-    background-color: #c0c0c0;
+    background-color: #0A0F0D;
 }
 h1#titulo-principal{
+    text-shadow: 2px 2px 0px #8b8b8b52;
     font-size: 2em;
     font-family: 'Roboto', sans-serif;
-    color: rgb(4, 0, 26);
+    color: white;
     border-right: 2px solid white;
     margin: 0 auto;
     width: 400px;
@@ -19,15 +20,26 @@ h1#titulo-principal{
     white-space: nowrap;
     overflow: hidden;
 }
-h2{
+.descricao{
     font-size: 1.3em;
     font-family: 'Roboto', sans-serif; 
     font-weight: 300;
-    color: rgb(4, 0, 24);
+    color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.178);
     width: 500px;
     padding-top: 30px;
     margin: 0 auto;
+}
+.container-avatar{
+    width: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.imagem-avatar{
+    transition: all 0.5s ease;
+}
+.imagem-avatar:hover{
+    transform: translateY(-10px);
 }
 
 .animação-escrever{
@@ -54,45 +66,85 @@ h2{
     }
 }
 hr{
-    margin-top: 70px;
+    border-width: 2px;
+    border-color: #2b1a6e;
+    margin-top: 45px;
 }
-h1#titulo-contatos{
+.titulo-contatos{
+    color: white;
     font-family: 'Roboto', sans-serif;
     margin-top: 50px;
     text-align: center;
+    transition: all 0.5s ease-in-out;
 }
-section{
+.titulo-contatos:hover{
+    transform: translateY(-5px);
+
+}
+.container-contatos{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-div{
+.botao-contato{
     margin-top: 20px;
     text-align: center;
 }
-a{
+.secao-projetos{
+    text-align: center;
+    
+}
+.caixa-projeto{
+    border: 2px solid #2A1E5C;
+    margin-left: 20px;
+    margin-top: 30px;
+    display: inline-block;
+    transition: all 0.7s ease;
+    background-color: #0b0e0c;
+    box-shadow: #2A1E5C 4px 4px 0px;
+    
+}
+.caixa-projeto:hover{
+    box-shadow: #2A1E5C 9px 10px 0px;
+    transform: translateY(-10px);
+    
+}
+.titulo-projeto{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.botao-contato a{
     cursor: pointer;
     user-select: none;
     padding: 1rem 2rem;
     border-radius: 5px;
     width: 100px;
-    background-color: #afafaf;
+    background-color: #0A0F0D;
     display: inline-block;
     transition: all 0.5s ease;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    color: rgb(4, 0, 24);
+    color: white;
     font-weight: bold;
+    border-style: solid;
+    border-color: #2A1E5C;
+    box-shadow: #2A1E5C 4px 4px 0px;
+    border-radius: 1px 1px;
 }
-a:hover{
+.botao-contato a:hover{
+    box-shadow: #2A1E5C 6px 5px 0px;
     transform: translateY(-5px);
     width: 120px;
 }
 footer{
     font-weight: bold;
-    color: rgb(4, 0, 24);
+    color: white;
     font-family: 'Roboto', sans-serif;
     margin-top: 10px;
-    background-color: #afafaf;
+    background-color: #151d1a;
     text-align: center;
     padding: 10px;
     font-size: 0.9em;

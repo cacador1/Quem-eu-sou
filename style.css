@@ -17,17 +17,21 @@ h1#titulo-principal{
     margin: 0 auto;
     width: 400px;
     margin-top: 120px;
+    margin-bottom: 30px;
     white-space: nowrap;
     overflow: hidden;
 }
 .descricao{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #151d1a3a;
     font-size: 1.3em;
     font-family: 'Roboto', sans-serif; 
     font-weight: 300;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.178);
     width: 500px;
-    padding-top: 30px;
+    margin-top: 30px;
     margin: 0 auto;
 }
 .container-avatar{
@@ -99,7 +103,7 @@ hr{
     margin-top: 30px;
     display: inline-block;
     transition: all 0.7s ease;
-    background-color: #0b0e0c;
+    background-color: #00000038;
     box-shadow: #2A1E5C 4px 4px 0px;
     
 }
